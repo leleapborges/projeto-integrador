@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 222, 201);
+}
+
+.cabecalho{
+    border: 7px solid;
+    border-style: outset;
+    border-color: #8D7B68;
+    background-color: #A4907C;
+}
+
+.cabecalho_menu{
+    text-align: center;
+    padding: 10px;
+}
+
+.cabecalho_menu_links{
+    color: black;
+    padding: 0px 200px 0px 200px;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 40pt;
+    text-align: center;
+    color: #342a1e;
+    padding: 5px;
+}
+
+.tag{
+    background-color: #f2f2f2;
+    color: #555;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+  
+.livro{
+    margin-bottom: 10px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    background-color: #C8B6A6;
+    margin: 2% 20% 2% 20%;
+}
+
+#img_livro{
+    margin: 2% 1% 2% 5%;
+    width: 280px;
+}
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10%;
+    padding: 2px;
+}
+
+h2{
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #8D7B68;
+}
+
+@media(max-width:1445px){
+    .cabecalho{
+        border: 4px solid;
+        border-style: outset;
+        border-color: #342a1e;
+    }
+    .cabecalho__menu{
+        padding: 5px;
+    }
+    .cabecalho_menu_links{
+        font-size: 15pt;
+        padding: 0px 100px 0px 100px;
+    }
+    h1{
+        font-size: 35pt;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+        gap: 5px;
+    }
+    #img_livro{
+        width: 230px;
+    }
+    .livro{
+        margin: 2% 15% 2% 15%;
+    }
+}
+
+@media(max-width:800px){
+    .cabecalho_menu_links{
+        padding: 0px 50px 0px 50px;
+    }
+    #img_livro{
+        width: 180px;
+    }
+    h1{
+        font-size: 35pt;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+        gap: 5px;
+    }
+    .livro{
+        margin: 2% 10% 2% 10%;
+    }
+}
+@media(max-width:550px){
+    .cabecalho_menu_links{
+        padding: 0px 30px 0px 30px;
+    }
+    #img_livro{
+        width: 130px;
+    }
+    .livro{
+        margin: 2% 5% 2% 5%;
+    }
+    h1{
+        font-size: 30pt;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+        gap: 5px;
+    }
+}
